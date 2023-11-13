@@ -9,7 +9,7 @@ public abstract class ServicoMensagem{
         System.out.println("Verificando conexão com a internet");
     }
 
-    public void salvarHistorico(){
+    protected void salvarHistorico(){
         System.out.println("Salvando histórico de mensagens");
     }
 }

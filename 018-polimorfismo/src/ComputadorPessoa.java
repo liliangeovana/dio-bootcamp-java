@@ -11,7 +11,7 @@ public class ComputadorPessoa {
          */
 
         ServicoMensagem servico = null;
-        String appEscolhido = "??";
+        String appEscolhido = "";
 
         if (appEscolhido.equals("msn")){
             servico = new MSNMessenger();
