@@ -1,5 +1,7 @@
 public abstract class ServicoMensagem{
 
+    //Abstratc torna esse serviço geral para todos os sistemas
+    //Permite definir como cada um envia e recebe a própria mensagem
     public abstract void enviarMensagem();
     public abstract void receberMensagem();
 
